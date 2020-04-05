@@ -1,0 +1,111 @@
+/* Changes the website background to #404040 */
+Body {
+ background-color: #404040;
+}
+
+/* Big Top Title on Pages*/
+.MainTitle {
+ font-family: 'Architects Daughter';
+ font-size: 22px;
+ color: white;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 15px;
+}
+
+/* ? What is this used for ? */
+.InputText {
+ font-family: 'Arsenal';
+ font-size: 20px;
+ color: white;
+}
+
+/* General Inputbox used in Login and Restigation */
+.InputBox {
+ font-family: 'Arsenal';
+ font-size: 20px;
+ color: black;
+}
+
+/* Input Number is modified inputbox for size differences
+NOTE: It is changed page specfic not in this css sheet */
+.InputNumber {
+ font-family: 'Arsenal';
+ font-size: 20px;
+ color: black;
+}
+
+/* Button duh */
+.Button {
+ font-family: 'Buda';
+ font-size: 20px;
+ margin-top: 10px;
+ margin-bottom: 1px;
+ margin-left: 10px;
+ background-color: #666666;
+ border: none; 
+ color: white;
+ border-radius: 5px;
+ /* */
+}
+
+.Button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 8px 0px 0 rgba(0,0,0,0.19)
+}
+
+/* Box to fit logins inside of*/
+.Box {
+  width: 300px;
+  padding: 5px;
+  overflow: auto;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Error text */
+p.Error {
+  color: red;
+}
+
+/*Table Code*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  color: #000000;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #666666;
+}
+tr:nth-child(odd) {
+  background-color: #666666;
+}
+/* End of table code */
+
+/*Footer Code*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Architects Daughter';
+  color: white;
+  text-align: center;
+}
+/* End of footer code */
+
+/* Center Things */
+.wrapper {
+  text-align: center;
+}
